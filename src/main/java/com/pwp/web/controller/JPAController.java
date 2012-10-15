@@ -167,7 +167,7 @@ public class JPAController {
         return response;
     }
 
-    @RequestMapping(value = "/find/{firstName}", method = RequestMethod.GET)
+    @RequestMapping(value = "/find/{firstName}/noaddresses", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public @ResponseBody DontTryThisAtHome findByFirstName(@PathVariable("firstName") String firstName) {
         System.out.println("**************************************\n**************************************");
@@ -178,7 +178,7 @@ public class JPAController {
         return response;
     }
 
-    @RequestMapping(value = "/find/{firstName}/addresses", method = RequestMethod.GET)
+    @RequestMapping(value = "/find/{firstName}", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public @ResponseBody DontTryThisAtHome findByFirstNameWithAddresses(@PathVariable("firstName") String firstName) {
         System.out.println("**************************************\n**************************************");
@@ -189,7 +189,7 @@ public class JPAController {
         return response;
     }
 
-    @RequestMapping(value = "/zipcode/{zipCode}", method = RequestMethod.GET)
+    @RequestMapping(value = "/zipcode/{zipCode}/noaddresses", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public @ResponseBody DontTryThisAtHome findByZipCode(@PathVariable("zipCode") String zipCode) {
         System.out.println("**************************************\n**************************************");
@@ -200,7 +200,7 @@ public class JPAController {
         return response;
     }
 
-    @RequestMapping(value = "/zipcode/{zipCode}/addresses", method = RequestMethod.GET)
+    @RequestMapping(value = "/zipcode/{zipCode}", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public @ResponseBody DontTryThisAtHome findByZipCodeWithAddresses(@PathVariable("zipCode") String zipCode) {
         System.out.println("**************************************\n**************************************");

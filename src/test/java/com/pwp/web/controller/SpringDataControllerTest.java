@@ -37,9 +37,6 @@ public class SpringDataControllerTest {
     @Test
     public void testSaveAndFind() {
         Person person = createPerson();
-        Person savedPerson = springDataController.save(person).getDomainObjects().get(0);
-        Person retrievedPerson = springDataController.findByFirstName(person.getFirstName()).getDomainObjects().get(0);
-        assertEquals("retrievedPerson should match savedPerson", savedPerson, retrievedPerson);
         person = createPerson();
         springDataPersonRepository.save(person);
         person = createPerson();
