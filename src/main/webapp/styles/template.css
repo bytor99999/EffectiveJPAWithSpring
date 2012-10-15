@@ -1,0 +1,71 @@
+.typeMargin {
+    padding: 0px, 0px, 0px, 0px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+/*****
+Classes for fields to make it look like a table
+****/
+
+.headerTitles {
+    text-align: left;
+    line-height: 18px;
+    height: 14px;
+}
+
+/**PersonList**/
+.id {
+    width: 5%;
+    display: inline-block;
+}
+
+.firstName {
+    width: 15%;
+    display: inline-block;
+}
+
+.lastName {
+    width: 35%;
+    display: inline-block;
+}
+
+/**Address List**/
+.street1 {
+    width: 15%;
+    display: inline-block;
+}
+
+.street2 {
+    width: 15%;
+    display: inline-block;
+}
+
+.city {
+    width: 10%;
+    display: inline-block;
+}
+
+.state {
+    width: 4%;
+    display: inline-block;
+}
+
+.zip {
+    width: 15%;
+    display: inline-block;
+}
+
+.indentMe5 {
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.gapAboveAndBelow {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.textAlignLeft {
+    text-align: left;
+}
