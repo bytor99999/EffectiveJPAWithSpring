@@ -90,9 +90,9 @@
         <section id="springData" class="radius15InfoBubble" style="display: none;">
             <h1><b>Spring Data</b></h1>
             <form id="springDataForm">
-                <section class="formLine">
-                    <a id="springDataFindAllButtonLazy" class="button medium" title="find all people." href="">Get Everyone Lazy</a>
-                    <a id="springDataFindAllButtonEager" class="button medium" title="find all people." href="">Get Everyone Eager</a>
+                    <section class="buttonRow">
+                    <a id="springDataFindAllButtonLazy" class="button super" title="find all people." href="">Get Everyone Lazy</a>
+                    <a id="springDataFindAllButtonEager" class="button super" title="find all people." href="">Get Everyone Eager</a>
                 </section>
             </form>
             <br />
